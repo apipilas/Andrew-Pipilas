@@ -46,6 +46,14 @@
                 <p class="masthead-subheading font-weight-light ">Software Engineering Grad - Freelance Designer</p>
             </div>
         </header>
+
+        <!-- GreenSock Stuff -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js"></script>
+        <script>
+            gsap.from('.masthead-avatar', {opacity: 0, duration: 1.4, y:-100})
+            gsap.from('.masthead-heading', {opacity: 0, duration: 1.6, y:100})
+            gsap.from('.masthead-subheading', {opacity: 0, duration: 1.9, y:100})
+        </script>
         
         <!-- About Section-->
         <section class="page-section  mb-0" id="about">
@@ -53,7 +61,7 @@
                 <!-- About Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-black">About Me</h2>
                 <!-- Icon Divider-->
-                <div class="divider-custom">
+                <div class="divider-custom">s
                     <div class="divider-custom-line"></div>
                 
                 </div>
@@ -146,9 +154,9 @@
                 <!-- Contact Section Form-->
                 <div class="row text-center">
                     <div class="col-lg-8 mx-auto">
-                        <p><i class="fa fa-phone" aria-hidden="true"></i> 905-808-0990</p>
-                        <p><i class="fa fa-envelope" aria-hidden="true"></i> apipilas1@gmail.com</p>
-                        <p><i class="fab fa-instagram" aria-hidden="true"></i> andrew_pip</p>
+                        <p class="lead"><i class="fa fa-phone" aria-hidden="true"></i> 905-808-0990</p>
+                        <p class="lead"><i class="fa fa-envelope" aria-hidden="true"></i> apipilas1@gmail.com</p>
+                        <p class="lead"><i class="fab fa-instagram" aria-hidden="true"></i> andrew_pip</p>
                     </div>
                 </div>
             </div>
