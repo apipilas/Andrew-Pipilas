@@ -547,9 +547,9 @@ pre code {
   margin-left: auto;
 
 }
-@media (min-width: 400px) {
+@media (min-width: 370px) {
   .container {
-    max-width: 375px;
+    max-width: 370px;
   }
   .container.header {
     background-image: url('../assets/img/ap-mobile.png');
