@@ -548,12 +548,13 @@ pre code {
 
 }
 
+
 @media (min-width: 350px) {
   .container {
-    max-width: 350px;
+    max-width: 340px;
   }
   .container.header {
-    background-image: url('../assets/img/ap-mobile.png');
+    background-image: url('../assets/img/ap-mobile-small.png');
     background-size: cover; 
     background-position: center;
   }
@@ -576,7 +577,7 @@ pre code {
     max-width: 540px;
   }
   .container.header {
-    background-image: url('../assets/img/ap-mobile.png');
+    background-image: url('../assets/img/ap-web-med.png');
     background-size: cover; 
     background-position: center;
   }
@@ -607,7 +608,7 @@ pre code {
     max-width: 1140px;
   }
   .container.header {
-    background-image: url('../assets/img/BG_ap.png');
+    background-image: url('../assets/img/ap-web-max.png');
     background-size: cover; 
     background-position: center;
   }
