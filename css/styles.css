@@ -547,6 +547,18 @@ pre code {
   margin-left: auto;
 
 }
+
+@media (min-width: 350px) {
+  .container {
+    max-width: 350px;
+  }
+  .container.header {
+    background-image: url('../assets/img/ap-mobile.png');
+    background-size: cover; 
+    background-position: center;
+  }
+  
+}
 @media (min-width: 370px) {
   .container {
     max-width: 370px;
