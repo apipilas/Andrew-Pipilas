@@ -2,7 +2,34 @@
     * Start Bootstrap - Freelancer v6.0.4 (https://startbootstrap.com/themes/freelancer)
     * Copyright 2013-2020 Start Bootstrap
     * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-freelancer/blob/master/LICENSE)
+    * 
     */
+   var tl = new TimelineMax({onUpdate:updatePercentage});       
+   var tl2 = new TimelineMax();
+   const controller = new ScrollMagic.Controller();
+
+   tl.from("blockquote", .5, {x:200, opacity:0});
+
+   tl.from('span', 1, { width: 0}, "=-.5");
+   tl.from('#create', 1, {x:-200, opacity: 0,ease: Power4.easeInOut}, "=-1");
+
+   const scene = new ScrollMagic.Scene({
+    triggerElement: "#abTest",
+              triggerHook: "onLeave",
+              duration: "100%"
+  })
+
+   .setPin("#abTest")
+   .setTween(tl)
+   .addTo(controller);
+
+   function updatePercentage(){
+     tl.progress();
+     console.log(tl.progress());
+   }
+
+
+
     (function($) {
     "use strict"; // Start of use strict
   
