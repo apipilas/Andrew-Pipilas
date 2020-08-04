@@ -540,31 +540,12 @@ pre code {
 }
 
 .container {
-  width:100%;
+  width: 100%;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
   margin-right: auto;
   margin-left: auto;
-}
 
-blockquote{
-  margin-top: 5%;
-  font-size: 2em;
-  width: 50%;
-  position: absolute;
-}
-span{
-  width: 70%;
-  height: 5px;
-  margin-top: 20px;
-  display: block;
-  background: blue;
-  
-}
-#create{
-  position: relative;
-  width: 40%;
-  left: 60%;
 }
 
 
@@ -10226,8 +10207,8 @@ h3 {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(11rem + 104px);
-    padding-bottom: 15rem;
+    padding-top: calc(6rem + 104px);
+    padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
     font-size: 4rem;
