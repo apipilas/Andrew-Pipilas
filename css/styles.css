@@ -394,6 +394,9 @@ h6, .h6 {
   font-weight: 300;
 }
 
+
+
+
 .display-1 {
   font-size: 6rem;
   font-weight: 300;
@@ -546,7 +549,9 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 
+  
 }
+ 
 
 
 
@@ -559,7 +564,9 @@ pre code {
     background-size: cover; 
     background-position: center;
   }
-  
+  #tester{
+    width:100%;
+  }
 }
 @media (min-width: 370px) {
   .container {
@@ -569,6 +576,9 @@ pre code {
     background-image: url('../assets/img/ap-mobile.png');
     background-size: cover; 
     background-position: center;
+  }
+  #tester{
+    width:100%;
   }
   
 }
@@ -582,6 +592,9 @@ pre code {
     background-size: cover; 
     background-position: center;
   }
+  #tester{
+    width:100%;
+  }
   
 }
 @media (min-width: 768px) {
@@ -593,6 +606,9 @@ pre code {
     background-size: cover; 
     background-position: center;
   }
+  #tester{
+    width:100%;
+  }
 }
 @media (min-width: 992px) {
   .container {
@@ -602,6 +618,9 @@ pre code {
     background-image: url('../assets/img/BG_ap.png');
     background-size: cover; 
     background-position: center;
+  }
+  #tester{
+    width:150%;
   }
 }
 @media (min-width: 1200px) {
@@ -613,6 +632,10 @@ pre code {
     background-size: cover; 
     background-position: center;
   }
+  #tester{
+    width:100%;
+  }
+  
 }
 
 .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
