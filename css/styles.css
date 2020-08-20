@@ -553,7 +553,19 @@ pre code {
 }
  
 
-
+@media (min-width: 290px) {
+  .container {
+    max-width: 280px;
+  }
+  .container.header {
+    background-image: url('../assets/img/ap-mobile-small.png');
+    background-size: cover; 
+    background-position: center;
+  }
+  #tester{
+    width:100%;
+  }
+}
 
 @media (min-width: 350px) {
   .container {

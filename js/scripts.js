@@ -35,9 +35,9 @@ if (mq.matches) {
 }
 else {
   // window width is greater than 1200px
-  tl.from('#para', .5, { x: 200, opacity: 0 });
+  tl.from('#para', .5, { x: 20, opacity: 0 });
   tl.from('span', 1, { width: 0 }, "=-.5");
-  tl.from('#tester', 1, { x: -200, opacity: 0, ease: Power4.easeInOut }, "=-1");
+  tl.from('#tester', 1, { x: -20, opacity: 0, ease: Power4.easeInOut }, "=-1");
 }
 
 function updatePercentage() {
