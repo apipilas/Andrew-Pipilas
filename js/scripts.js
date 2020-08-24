@@ -29,7 +29,9 @@ const scene2 = new ScrollMagic.Scene({
 var mq = window.matchMedia("(max-width: 1200px)");
 if (mq.matches) {
   // window width is at less than 1200px
-  tl.from('#para', .5, { x: 20, opacity: 0 });
+  //gsap.from('#para', {opacity: 0, duration: 2.5, y:-125})
+  tl.from('#para', .5, { y: -20, opacity: 0 });
+  tl.from('#para2', .5, { y: 20, opacity: 0 });
   tl.from('span', 1, { width: 0 }, "=-.5");
   tl.from('#tester', 1, { x: -20, opacity: 0, ease: Power4.easeInOut }, "=-1");
 }
@@ -38,6 +40,7 @@ else {
   tl.from('#para', .5, { x: 20, opacity: 0 });
   tl.from('span', 1, { width: 0 }, "=-.5");
   tl.from('#tester', 1, { x: -20, opacity: 0, ease: Power4.easeInOut }, "=-1");
+  tl.from('#para2', .5, { y: 20, opacity: 0 });
 }
 
 function updatePercentage() {
